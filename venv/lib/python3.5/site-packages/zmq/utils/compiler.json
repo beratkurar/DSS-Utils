@@ -1,0 +1,22 @@
+{
+  "library_dirs": [
+    "/usr/local/lib"
+  ],
+  "runtime_library_dirs": [
+    "/usr/local/lib"
+  ],
+  "include_dirs": [
+    "/usr/local/include",
+    "zmq/utils"
+  ],
+  "extra_link_args": [],
+  "libraries": [
+    "zmq"
+  ],
+  "define_macros": [
+    [
+      "HAVE_SYS_UN_H",
+      1
+    ]
+  ]
+}
